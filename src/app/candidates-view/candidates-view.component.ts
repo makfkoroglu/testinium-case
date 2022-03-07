@@ -1,5 +1,4 @@
 import { HttpClient } from '@angular/common/http';
-import { isNgTemplate } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
 
@@ -28,7 +27,6 @@ searchText(){
   this.userList.forEach((element: any) => {
     const seachElement=this.searchItem;
       if(element.name===this.searchItem){
-        console.log('bu var');
         this.userList=this.userList.filter(function(item:any){
           return item.name===seachElement;
         })
