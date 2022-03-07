@@ -1,0 +1,9 @@
+.main{
+    position: absolute;
+    left: 10%;
+    right: 10%;
+}
+p{
+    color:#1976d2;
+    font-weight: bold;
+}

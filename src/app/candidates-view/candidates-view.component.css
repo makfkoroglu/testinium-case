@@ -1,0 +1,42 @@
+.table-class{
+    width: 100%;
+}
+tr{
+    width: 100px;
+    text-align: center;
+}
+.td-class{
+    width: 280px;
+}
+button{
+    background-color: #1976d2;
+    color: white;
+    font-weight: 200;
+    border-radius: 10px;
+    border: 1px solid;
+    margin: 5px;
+    height: 30px;
+}
+.header{
+    background-color: #1976d2;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.search-class{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    float: right;
+}
+.search-text{
+    width: 200px;
+    height: 25px;
+    border-radius: 20px;
+    border-color:#5e5f5f;
+}
+.clear-button{
+    background-color: white;
+    color: #1976d2;
+}

@@ -1,0 +1,39 @@
+<div>
+    <table class="table-class">
+        <tr>
+            <td class="header"><p>User Details</p></td>
+        </tr>
+        <tr>
+            <td><b>Name:</b>{{userDetail.name}}</td>
+        </tr>
+        <tr>
+            <td><b>User Name:</b>{{userDetail.username}}</td>
+        </tr>
+        <tr>
+            <td><b>Mail:</b>{{userDetail.email}}</td>
+        </tr>
+        <tr>
+            <td><b>Phone:</b>{{userDetail.phone}}</td>
+        </tr>
+        <tr>
+            <td><b>Web:</b>{{userDetail.website}}</td>
+        </tr>
+        <tr>
+            <td><h3>Adress</h3></td>  
+        </tr>
+        <hr>
+        <tr>
+            <td><b>City:</b>{{userDetail.address?.city}}</td>
+        </tr>
+        <tr>
+            <td><b>Street:</b>{{userDetail.address?.street}}</td>
+        </tr>
+        <tr>
+            <td><b>Suite:</b>{{userDetail.address?.suite}}</td>
+        </tr>
+        <tr>
+            <td><b>Zip code:</b>{{userDetail.address?.zipcode}}</td>
+        </tr>
+    </table>
+    <button (click)="getBack()">Back</button>
+ </div>

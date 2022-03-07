@@ -1,0 +1,22 @@
+<div>
+   <table class="table-class">
+      <tr>
+         <td class="td-class"></td>
+         <td class="td-class"></td>
+         <td class="td-class"></td>
+         <td><input type="text" id="searchItem" name="searchItem"  [(ngModel)]="searchItem" class="search-text" placeholder="Search"><button (click)="searchText()">Search</button><button class="clear-button" (click)="clearSearch()">Clear</button></td>
+      </tr>
+      <tr class="header">
+         <td >ID</td>
+         <td>Name</td>
+         <td>Phone</td>
+         <td>Action</td>
+      </tr>
+      <tr *ngFor="let item of userList" >
+         <td>{{item.id}}</td>
+         <td>{{item.name}}</td>
+         <td>{{item.phone}}</td>
+         <td><button type="button" (click)="userDetail($event, item)">Details</button></td>
+      </tr>
+   </table>
+</div>

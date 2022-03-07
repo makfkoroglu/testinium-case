@@ -1,0 +1,25 @@
+.table-class{
+    width: 100%;
+}
+.header{
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+tr{
+    width: 100px;
+    text-align: center;
+}
+button{
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    margin: 20px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
